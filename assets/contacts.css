@@ -199,7 +199,8 @@ textarea::placeholder {
 .footer{
     height: 400px;
     background-color: #121725;
-   
+    padding-right: 30px;
+    padding-left: 30px;
      margin-top: -20px; 
      padding-top: 10px;
 }
@@ -307,8 +308,10 @@ textarea::placeholder {
     padding-left: 50px;
     padding-bottom: 40px;
     font-size: 15px;
+    color: white;
 }
-i{
+
+#i5{
     color: #FB5607;
     margin-top: 10px;
     /* margin-left: -2.5px; */
