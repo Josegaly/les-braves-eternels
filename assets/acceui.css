@@ -11,6 +11,7 @@ body{
 }
 .header-g{ /*bordure de la grande div*/
     margin: 0 180px;
+    /*margin: ;*/
 }
 .logos{
     display: flex;
