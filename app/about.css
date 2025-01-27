@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+    font-family: 'poppins','sans-serif';
+}
+/*css du header*/
+/*-------------Debut de Mon menu----------------- */
+body{
+    font-family: 'poppins','sans-serif';
+}
+
+.conten2{
+    /*width: %;*/
+    display: flex;
+    margin-bottom: 10pxpx;     
+}
+.header-g{
+    margin: 0 0px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    margin: 0 10px;
+    list-style: none;
+    font-size: 16px;
+}
+.Liste{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Enquir{
+    text-align: center;
+    font-size: 1apx;
+    border-radius: 30px;
+    border: none;
+    width: 160px;
+    height: 40px;
+    background-color:#FB5607 ;
+    color: #ffff;
+    margin-right: 10px;
+}
+.Enquire{
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid #6C7A87;
+    width: 160px;
+    height: 40px;
+    color: #6C7A87;
+    background-color: #ffff;
+    margin-right: 30px;
+    
+}
+
+#titre{
+    font-size: 30px;
+    color: #0B2238;
+}
+.logo{
+    height: 25px;
+}
+
+.contenu-global {
+    font-family: 'poppins','sans-serif';
+    height: 100vh;
+    overflow-y: auto;
+    width: 75%;
+    /*margin: auto;*/
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espace entre les colonnes*/ 
+}
+.parti1 {
+    
+    /*flex: 1;*/
+    width: 890px; 
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+      
+}
+.parti .contenu1-1{
+    width: 40%;
+    text-align: left;    
+}
+#P1{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size:x-small;
+    color: blue;
+}
+#P2{
+    margin-bottom: 80px;
+    margin-left: 100px;
+    font-size:x-large;
+    color: black;
+    margin-top: 2px;
+    line-height: 25px;
+}
+#P3{
+    margin-top: 60px;
+    margin-right: 200px;
+    font-size:xx-small;
+    color: rgb(78, 70, 70);
+    line-height: 15px;
+}
+
+
+.parti .contenu1-2{
+     width: 40%;
+     text-align: left;
+    
+}
+.parti2{
+    height: 80vh;
+    flex: 1;
+   /* width: 70%; /* Largeur des colonnes*/
+   width: 890px; 
+    padding: 20px;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+   
+}
+#P4{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size:x-small;
+    color: blue;
+}
+#P5{
+    margin-left: 100px;
+    font-size:x-large;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 10;
+    line-height: 25px;
+}
+#P6{
+    margin-left: 100px;
+    font-size:xx-small;
+    color: rgb(78, 70, 70);
+    margin-top: 3px;
+    line-height: 15px;
+
+}
+
+.img1{
+    margin-top: 70px;
+    width: 350px; 
+    height: 150px;
+    margin-left: 20px;
+    
+}
+
+.partie2 .contenu2-3{
+    width: 40%;
+    text-align: left;  
+    
+}
+#bouton {
+    height: 35px;
+    width: 150px;
+    margin-top: 20px;
+    
+    margin-bottom: 30px;
+    margin-left: 100px;
+    border-style: none ;
+    border-radius: 50px;
+    background-color: rgb(245, 80, 10);
+
+}
+/*css du texte du bouton*/
+.pbton{
+    color:#e0e0e0;
+    margin-top: 10px;
+}
+
+
+/* Section "Why Choose Us" */
+.why-choose-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.why-choose-us h6 {
+    /*font-size: 32px;*/
+    color:blue;
+    margin-bottom: 10px;
+}
+
+.why-choose-us .sous-titre {
+    font-size: 25px;
+    color:black;
+    margin-bottom: 40px;
+    margin-top: -1px;
+}
+h6{
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+/* Conteneur des services */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Styles pour chaque service */
+.service {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+
+    text-align: right;
+    margin-bottom: 50px;
+}
+#joel{
+    text-align: left;
+    margin-left: 80px;
+}
+.service h4{
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: -60px;
+}
+
+.service h3 {
+    font-size: 27px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 15px;
+    color: #666;
+}
+#icones1{
+    width: 40px;
+    margin-right: 200px;
+    margin-top:30px;
+}
+/*partie 4 et service=photo*/
+.meet {
+    width: 890px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+.meet h2 {
+    font-size: 32px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.meet .Our-team {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: -1px;
+}
+
+/* Conteneur des services */
+.services1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Styles pour chaque service */
+.service1 {
+    flex: 1;
+    max-width: 150px;
+    height: 215px;
+    /*padding: 10px;*/
+    background-color: #f5f5f5;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+/*.service1 h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;*/
+
+
+.service1 p {
+    font-size: 16px;
+    color: #666;
+}
+#photocmt{
+    width: 100%;
+    object-fit: cover;
+}
+#sp1{
+    margin-top: 8px;
+    font-weight:bolder;
+    margin-left: 10px;
+}
+.service1 .sp2{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: small;
+}
+/*footer*/
+/* Footer */
+.footer{
+    height: 75%;
+    background-color: #121725;
+   
+     margin-top: -20px; 
+     padding-top: 10px;
+}
+.foot-haed{
+    font-size: 12px; 
+   
+}
+.foot1{
+    float: left;
+    font-size: 12px; 
+    margin-top: 68px;
+    margin-left: 40px;
+}
+.foot2{
+    margin-top: -255px; 
+    margin-left: 220px;
+    font-size: 12px; 
+    float: left;
+}
+.foot3{
+    margin-top: -125px;
+    font-size: 12px; 
+    margin-left: 370px;
+    margin-top: -255px; 
+    float: left;
+}
+.foot4{
+    float: left;
+    margin-top: -255px; 
+    margin-left: 540px;
+    font-size: 12px; 
+    float: left;
+}
+.icon{
+    display: flex;
+    margin-left: -13px;
+
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f5; 
+    margin-left: 10px;    
+} 
+.icon2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f5; 
+    margin-left: 10px;
+    padding-left: -3px;  
+}
+.icon3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    margin-left: 10px;     
+}
+.icon4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    margin-left: 10px;     
+}
+.p20{
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.p21{
+    color: white;
+    
+}
+.p22{
+    color: white
+}
+.p23{
+    margin-top: -40px;
+    margin-left: 210px;
+    color: #FB5607;
+}
+
+.btn{
+    width: 200px;
+    height: 35px;
+    margin-left: 27px;
+    margin-top: -5px;
+    padding-bottom: 30px;
+    background-color: white;
+} 
+.p25{
+    margin-left: -65px;
+}
+.join{
+    background-color: #FB5607;;
+    margin-top: -70px;
+    margin-right: 30px;
+    float: right;
+    width: 125px;
+    height: 15px;
+    border-radius: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+i{
+    color: #FB5607;
+    margin-top: 10px;
+    /* margin-left: -2.5px; */
+}
+.i1{
+    color: white;
+}
