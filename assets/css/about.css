@@ -8,6 +8,71 @@ body{
     background-color:white;
     font-family: 'poppins','sans-serif';
 }
+/*css du header*/
+/*-------------Debut de Mon menu----------------- */
+body{
+    font-family: 'poppins','sans-serif';
+}
+
+.conten2{
+    width: %;
+    display: flex;
+    margin-bottom: 10pxpx;     
+}
+.header-g{
+    margin: 0 0px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    margin: 0 10px;
+    list-style: none;
+    font-size: 16px;
+}
+.Liste{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Enquir{
+    text-align: center;
+    font-size: 1apx;
+    border-radius: 30px;
+    border: none;
+    width: 160px;
+    height: 40px;
+    background-color:#FB5607 ;
+    color: #ffff;
+    margin-right: 10px;
+}
+.Enquire{
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid #6C7A87;
+    width: 160px;
+    height: 40px;
+    color: #6C7A87;
+    background-color: #ffff;
+    margin-right: 30px;
+    
+}
+
+#titre{
+    font-size: 30px;
+    color: #0B2238;
+}
+.logo{
+    height: 25px;
+}
 .contenu-global {
     font-family: 'poppins','sans-serif';
     height: 100vh;
