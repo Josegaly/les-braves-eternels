@@ -17,7 +17,7 @@ body{
 .conten2{
     width: %;
     display: flex;
-    margin-bottom: 10pxpx;     
+    margin-bottom: 10px;     
 }
 .header-g{
     margin: 0 0px;
@@ -328,83 +328,92 @@ h6{
     margin-left: 10px;
     font-size: small;
 }
-/*footer*/
 /* Footer */
 .footer{
-    height: 75%;
     background-color: #121725;
-   
-     margin-top: -20px; 
-     padding-top: 10px;
+    padding: 70px 180px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.footers{
+    display: flex;
+    width: ;
+    gap: 20px;
+    padding: 50px 0px;
+    
+    border-top: 1px solid #6C7A87;
+    border-bottom:1px solid  #6C7A87;
 }
 .foot-haed{
-    font-size: 12px; 
-   
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
 }
 .foot1{
-    float: left;
-    font-size: 12px; 
-    margin-top: 68px;
-    margin-left: 40px;
+    width: 250px;
+    font-size: 16px;
 }
 .foot2{
-    margin-top: -255px; 
-    margin-left: 220px;
-    font-size: 12px; 
-    float: left;
+    font-size: 16px; 
+    width: 100px;
 }
 .foot3{
-    margin-top: -125px;
-    font-size: 12px; 
-    margin-left: 370px;
-    margin-top: -255px; 
-    float: left;
+    font-size: 16px;
+    width: 100px;
 }
 .foot4{
+    
+    font-size: 16px; 
     float: left;
-    margin-top: -255px; 
-    margin-left: 540px;
-    font-size: 12px; 
-    float: left;
+    width: 200px;
 }
 .icon{
     display: flex;
-    margin-left: -13px;
-
+    gap: 5px;
 }
+
 .icon1{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 23px;
     border-radius: 50%;
     background-color: #f5f5f5; 
-    margin-left: 10px;    
+    color: #FB5607;
+    align-content: center;
+    padding-left: 10px;
+    
+      
 } 
 .icon2{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f5f5f5; 
-    margin-left: 10px;
-    padding-left: -3px;  
+    text-align: center;
+    color: #FB5607;
+      
 }
 .icon3{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f5f5f5;
-    margin-left: 10px;     
+    text-align: center; 
+    color: #FB5607;
+        
 }
 .icon4{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f5f5f5;
-    margin-left: 10px;     
+    text-align: center; 
+    color: #FB5607;
+        
 }
 .p20{
     color: white;
-    margin-right: 30px;
-    margin-left: 30px;
 }
 .p21{
     color: white;
@@ -414,9 +423,8 @@ h6{
     color: white
 }
 .p23{
-    margin-top: -40px;
-    margin-left: 210px;
-    color: #FB5607;
+    text-align: center;
+    color: #ffff;
 }
 
 .btn{
@@ -427,26 +435,24 @@ h6{
     padding-bottom: 30px;
     background-color: white;
 } 
-.p25{
-    margin-left: -65px;
-}
+
 .join{
     background-color: #FB5607;;
-    margin-top: -70px;
-    margin-right: 30px;
-    float: right;
+    
     width: 125px;
-    height: 15px;
+    height: 30px;
+    padding-bottom: 25px;
+    
     border-radius: 40px;
-    padding-left: 50px;
-    padding-bottom: 40px;
-    font-size: 15px;
+    
+    font-size: 16px;
+    
 }
-i{
-    color: #FB5607;
-    margin-top: 10px;
-    /* margin-left: -2.5px; */
+.join, .p24{
+    color: #ffff;
+    text-align: center;
 }
+
 .i1{
     color: white;
 }
